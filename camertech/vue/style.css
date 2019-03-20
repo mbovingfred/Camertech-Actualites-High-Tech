@@ -1,0 +1,205 @@
+/* *** INITIALISATEUR GLOBAUX ***/
+/* ----------------------------------*/
+html
+{
+    padding: 0;
+}
+body
+{
+    background-color: rgb(220, 220, 220);
+    font-family: "Segoe UI", "calibri light", calibri, arial, serif;
+}
+input
+{
+    border: 0;
+}
+h1, body
+{
+    margin: 0;
+}
+form{
+}
+
+/* *** LES GRANDES PARTIES ***/
+/*--------------------------------*/
+
+/* L'ENTETE    */
+/*--------------*/
+header
+{
+    background-color: black;
+    padding: 2%;
+    color: rgb(255, 71, 26);
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    min-height: 100px;
+    z-index: 99999999999;
+}
+header img
+{
+    width: 70px;
+}
+input[type="submit"]
+{
+    background-color: rgb(115, 173, 33);
+    color: white;
+    padding: 5px;
+}
+input[type="button"]
+{
+    background-color: white;
+    color: rgb(115, 173, 33);
+    padding: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"], textarea
+{
+    background-color: white;
+    padding: 5px;
+}
+#commentaire textarea
+{
+    background-color: white;
+    border: 0;
+}
+
+header form a
+{
+    padding: 0;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* BAR DE NAVIGATION   */
+/*----------------------*/
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0;
+    background-color: rgb(115, 173, 33);
+    z-index: 99999999999;
+}
+nav a
+{
+    padding: 8px 2%;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    border-bottom: 3px solid rgb(115, 173, 33);
+}
+nav a:hover
+{
+    border-bottom: 1px solid white;
+    background-color: rgb(105, 163, 23);
+}
+
+nav+p{
+    text-align: right;
+}
+
+/* PARTIE PRINCIPALE   */
+/*----------------------*/
+h1, h2
+{
+    color: rgb(115, 173, 33);
+}
+#titreArticle
+{
+    text-align: center;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+#articles
+{
+	clear: both;
+    background-color: white;
+    margin: 10px 5%;
+    padding: 15px;
+    min-height: 50.3vh;
+    z-index: 99999999999;
+}
+#artcles h1
+{
+    font-weight: normal;
+}
+.article_wrap
+{
+    text-align: center;
+    z-index: 99999999999;
+}
+.homeArticle img
+{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+.homeArticle
+{
+    clear: both;
+    z-index: 99999999999;
+}
+
+#message
+{
+	position: absolute;
+	margin: auto;
+	background-color: rgb(255, 229, 126);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgb(255, 199, 196);
+	width: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+	line-height: 2em;
+    z-index: 99999999999;
+}
+
+#commentaire{
+    background-color: rgb(230, 230, 230);
+    padding: 8px;
+    z-index: 99999999999;
+}
+#commentaire label{
+    display: inline-block;
+    vertical-align: center;
+    width: 150px;
+}
+
+/* PIED DE PAGE   */
+/*---------------------*/
+footer
+{
+	clear: both;
+	background-color: black;
+	border: 1px solid black;
+	color: rgb(100, 100, 100);
+	text-align: center;
+    min-height: 80px;
+    z-index: 99999999999;
+}
+footer h1{
+    text-align: center;
+}
+footer a{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer section{
+    text-align: left;
+}
+#footer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li
+{
+    list-style-type: none;
+}
+footer ul{
+    margin: 0;
+    padding-left: 0;
+}	
