@@ -15,6 +15,6 @@ It is a news website with
 #
 
 # Online Demo
-The website was hosted in a free online host.
+The website was hosted in a free online host.<br/>
 Here's a link to the demo:
 http://camertech.hebergratuit.net
